@@ -70,8 +70,8 @@ switch ($ruta){
     case "noticias":
         controller()->noticias();
         break;
-        case "contacto":
-            controller()->noticias();
+    case "contacto":
+            controller()->contacto();
             break;
     case (strpos($ruta,"noticia/") === 0):
         controller()->noticia(str_replace("noticia/","",$ruta));

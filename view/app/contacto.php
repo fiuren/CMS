@@ -1,5 +1,5 @@
 <h3>
-    <a href="<?php echo $_SESSION['home'] ?>" title="Inicio">Inicio</a> <span>| Contacto</span>
+    <a href="<?php echo $_SESSION['home'] ?>" title="Inicio">inicio</a> <span>| Contacto</span>
 </h3>
 <div class="row">
     <i class="large material-icons">info_outline</i>
